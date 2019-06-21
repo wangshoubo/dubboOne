@@ -2,7 +2,9 @@ package com.debug.mooc.dubbo.one.response;
 
 import com.debug.mooc.dubbo.one.enums.StatusCode;
 
-public class BaseResponse<T> {
+import java.io.Serializable;
+
+public class BaseResponse<T> implements Serializable {
     private Integer code;
     private String msg;
     private T data;
@@ -20,7 +22,8 @@ public class BaseResponse<T> {
         this.code = statusCode.getCode();
         this.msg = statusCode.getMsg();
     }
-
+    public BaseResponse(){
+    }
     public Integer getCode() {
         return code;
     }

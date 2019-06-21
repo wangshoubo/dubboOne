@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
-<mapper namespace="com.debug.mooc.dubbo.one.model.mapper.ItemInfoMapper" >
+<mapper namespace="com.debug.mooc.dubbo.one.mapper.ItemInfoMapper" >
   <resultMap id="BaseResultMap" type="com.debug.mooc.dubbo.one.entity.ItemInfo" >
     <id column="id" property="id" jdbcType="INTEGER" />
     <result column="code" property="code" jdbcType="VARCHAR" />

@@ -16,8 +16,8 @@
     <dubbo:protocol name="rest" threads="500" contextpath="v1" server="tomcat" accepts="500"/>
     <dubbo:protocol name="dubbo" />
 
-    <!--消费方信息配置-->
-	<dubbo:application name="dubboOne-consume" owner="debug" organization="dubbox"/>
+    <!--消费方信息配置 dubboOne-consume-->
+	<dubbo:application name="dubboOne" owner="debug" organization="dubbox"/>
 
 
 </beans>

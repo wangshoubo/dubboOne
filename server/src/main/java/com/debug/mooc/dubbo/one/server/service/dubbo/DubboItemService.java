@@ -13,7 +13,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import javax.ws.rs.Path;
 import java.util.List;
 
-@Service(protocol = {"dubbo","rest"},validation = "true",timeout=3000,version="1.0")
+@Service(protocol = {"dubbo","rest"},validation = "true",timeout=20000,version="1.0")
 @Path("moocOne")
 public class DubboItemService implements IDubboItemService {
     private static final Logger log = LoggerFactory.getLogger(DubboItemService.class);
